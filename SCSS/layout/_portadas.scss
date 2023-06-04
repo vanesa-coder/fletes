@@ -1,0 +1,125 @@
+#portada-home{
+    padding-top: 88px;
+    background-image: url("../imgfletes/portadahome.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+#portada-fletes{
+    padding-top: 88px;
+    background-image: url("../imgfletes/portadaflete.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+#portada-mudanzas{
+    padding-top: 88px;
+    margin-bottom: 100px;
+    background-image: url("../imgfletes/portadamudanzas.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+#portada-empresa{
+    padding-top: 88px;
+    background-image: url("../imgfletes/portadaempresas.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+}
+#portada-contacto{
+    padding-top: 88px;
+    background-image: url("../imgfletes/portadacontacto.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+ .portada-home{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "texto texto texto"
+    ". boton .";  
+ }
+ .portada-fletes{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "texto texto texto";
+ }
+ .portada-mudanzas{
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "texto texto texto"
+    ". boton .";
+ }
+.portada-empresa{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "texto texto texto"
+    ". boton .";
+}
+.portada-contacto{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "texto texto texto";
+}
+
+.titulo{
+    grid-area: titulo;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 64px !important;
+    color: white;
+ }
+ .texto{
+    grid-area: texto;
+    text-align: center;
+    font-family: "montserrat";
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.37);
+    margin-bottom: 0;
+
+ }
+.botones{
+    grid-area: boton;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}

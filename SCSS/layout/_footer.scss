@@ -1,0 +1,58 @@
+.piedepag{
+    background-color:  rgb(194, 193, 193);
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: 
+    "logo menu redes";
+    justify-items: center;
+    align-items: center;    
+}
+
+ img{
+    grid-area: logo;
+ }
+
+ .menu-footer{
+    grid-area: menu;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-size: 18px;
+        font-family: "montserrat";
+     }
+
+    li{
+        display: inline-block;
+     }
+    
+     a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color:black;
+        font-size: 18px;
+        font-family: "montserrat";
+     }
+    
+     a:hover{
+        background-color: rgb(121, 120, 120);
+        border-radius: 7px;
+        color: white;
+     }
+ }
+ 
+ 
+ .redes-footer{
+    grid-area: redes;
+    display: inline-block;
+
+    a{
+        padding: 10px;
+        text-decoration: none;
+     }
+ }
+ 

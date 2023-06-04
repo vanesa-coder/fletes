@@ -387,7 +387,8 @@ p{
     border-radius: 15px;
     height: 45px;
     width: 180px;
-}.boton-reservar{
+}
+.boton-reservar{
     display: flex;
     justify-content: center;
     align-items: center;

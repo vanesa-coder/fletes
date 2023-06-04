@@ -1,0 +1,13 @@
+.equipamiento{
+    width: 100%;
+    height: 500px;
+}
+.caja-equipamiento{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+        p{
+            font-size: 17px;
+        }
+}

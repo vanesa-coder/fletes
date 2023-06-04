@@ -1,0 +1,55 @@
+header{
+    position: fixed;
+    width: 100%;
+}    
+.navbar{
+    background-color:rgb(194, 193, 193);
+    padding: 2rem;
+    position: fixed;
+
+    .navbar-collapse{
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+}
+
+
+
+ .menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    font-family: "montserrat";
+
+        li{
+        display: inline-block
+     }
+
+        a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+     }
+
+        a:hover{
+        background-color: rgb(121, 120, 120); 
+        border-radius: 7px;
+        color:white
+     }
+ }
+ 
+ 
+ 
+ .redes{
+    grid-area: redes;
+    display: inline-block;
+
+        a{
+        padding: 10px;
+        text-decoration: none;
+     }
+ }
+ 
