@@ -10,10 +10,15 @@ header{
     .navbar-collapse{
         align-items: center;
         justify-content: space-around;
-    }
-    
+    }   
 }
-
+.nav-link:hover{
+     background-color: red;
+}
+.estoy-aca{
+    font-size: 20px;
+    font-weight: bold;
+}
  .menu ul{
     display: flex;
     justify-content: space-between;
@@ -23,20 +28,19 @@ header{
 
         li{
         display: inline-block
-     }
+        }
 
         a{
         display: block;
         padding: 10px;
         text-decoration: none;
         color: black;
-     }
-
-        a:hover{
-        background-color: rgb(121, 120, 120); 
-        border-radius: 7px;
-        color:white
-     }
+            &:hover{
+            background-color: rgb(248, 14, 14); 
+            border-radius: 7px;
+            color:white
+            }
+        }
  }
  
  
@@ -50,4 +54,6 @@ header{
         text-decoration: none;
      }
  }
- 
+ .menu-h{
+    background-color:red ;
+ }
