@@ -9,6 +9,11 @@
     "seguridad seguridad seguridad"
     "respaldo respaldo respaldo"
     "lojack mafre vtv";
+    @media(max-width:700px){
+        display:flex;
+        flex-direction: column;
+        height: auto;      
+    }
 
     .seguridad{
         grid-area: seguridad;

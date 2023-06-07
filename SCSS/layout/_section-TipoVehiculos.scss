@@ -8,6 +8,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    @media(max-width:700px){
+        margin: 5px;
+        width: 400px;
+    }
     
     .caja2{
         display: flex;
@@ -18,4 +22,12 @@
        .caja2 p{
             font-size: 18px;
         }
+}
+
+@media(max-width:700px){
+    .cajas-vehiculos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
 }

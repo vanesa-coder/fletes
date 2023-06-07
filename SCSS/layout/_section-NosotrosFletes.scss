@@ -2,6 +2,11 @@
     display: flex;
     margin-top: 10px;
     margin-bottom: 100px;
+
+    @media(max-width:700px){
+        display: flex;
+        flex-direction: column;
+    }   
 }
 .caja-nosotros{
     display: flex;

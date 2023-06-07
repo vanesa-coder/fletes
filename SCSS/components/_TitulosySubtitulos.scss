@@ -6,16 +6,26 @@ h2{
     padding: 20px;
     background-color:rgb(163, 10, 4);
     border-radius: 9px;
+    @media(max-width:700px){
+        font-size: 32px !important;
+        border-radius: 0px;
+    }
 }
 p{
     font-family:"montserrat" !important;
     font-size: 25px;
     text-align: center !important;
     margin-bottom: 0;
-   
-
+    @media(max-width:700px){
+        font-size: 18px;
+    }
 }
+    
 .subt{
     padding:35px;
     color: black;
+    @media(max-width:700px){
+       padding: 25px;
+    }
 }
+    
