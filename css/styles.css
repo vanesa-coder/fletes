@@ -32,33 +32,6 @@ header {
   border-radius: 7px;
 }
 
-.estoy-aca {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.menu ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  font-size: 18px;
-  font-family: "montserrat";
-}
-.menu ul li {
-  display: inline-block;
-}
-.menu ul a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
-.menu ul a:hover {
-  background-color: rgb(248, 14, 14);
-  border-radius: 7px;
-  color: white;
-}
-
 .redes {
   grid-area: redes;
   display: inline-block;
