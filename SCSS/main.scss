@@ -1,3 +1,6 @@
+@import "./base/variables";
+@import "./base/mixin";
+@import "./base/extend";
 @import "./base/fonts";
 @import "./base/reset";
 @import "./layout/header";
@@ -14,5 +17,4 @@
 @import "./layout/section-BeneficiosEmpresas";
 @import "./layout/section-AsistenciaEmpresas";
 @import "./layout/section-EquipamientoEmpresas";
-@import "./base/variables";
-@import "./base/mixin";
+

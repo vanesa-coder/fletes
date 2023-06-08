@@ -10,15 +10,11 @@
     "respaldo respaldo respaldo"
     "lojack mafre vtv";
     @media(max-width:700px){
-        display:flex;
-        flex-direction: column;
+        @include disp-col;
         height: auto;      
     }
-    @mixin display{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
+    
     .seguridad{
         grid-area: seguridad;
         @include display;

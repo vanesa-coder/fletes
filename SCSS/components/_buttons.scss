@@ -8,18 +8,7 @@
 #whatsapp{
    margin-top: -20px;
 }
-.boton-1{
-    background-color: rgb(163, 10, 4);
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 15px;
-    height: 45px;
-    width: 180px;
-}
+
 .boton-fletes{
     @extend .boton-1;
 }
@@ -46,10 +35,8 @@
 }
 // Section nosotros
 .reserva{
-    @extend .boton-1
+    @extend .boton-1;
 }
 .boton-reservar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   @include display; 
 }
