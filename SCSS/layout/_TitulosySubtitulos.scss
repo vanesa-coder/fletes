@@ -1,10 +1,10 @@
 $fondo-titulos:#a30a04;
-
+$color-h1-h2:white;
 
 h2{
     font-family: "montserrat";
     font-size: 50px !important;
-    color: white !important;
+    color: $color-h1-h2 !important;
     text-align: center;
     padding: 20px;
     background-color: $fondo-titulos;

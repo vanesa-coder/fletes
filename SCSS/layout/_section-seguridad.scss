@@ -14,20 +14,20 @@
         flex-direction: column;
         height: auto;      
     }
-
-    .seguridad{
-        grid-area: seguridad;
+    @mixin display{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .seguridad{
+        grid-area: seguridad;
+        @include display;
         width: 100%;
         height: auto;
     }
     .respaldo{
         grid-area: respaldo;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include display;
     }
     .lojack{
         grid-area: lojack;
