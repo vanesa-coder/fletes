@@ -8,20 +8,8 @@
 #whatsapp{
    margin-top: -20px;
 }
-.boton-fletes{
-    background-color: rgb(163, 10, 4) ;
-    border: none;
-    color:white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 15px;
-    height: 45px;
-    width: 180px;
-}
-.boton-mudanzas{
-    background-color:  rgb(163, 10, 4);
+.boton-1{
+    background-color: rgb(163, 10, 4);
     border: none;
     color: white;
     text-align: center;
@@ -31,17 +19,16 @@
     border-radius: 15px;
     height: 45px;
     width: 180px;
+}
+.boton-fletes{
+    @extend .boton-1;
+}
+.boton-mudanzas{
+    @extend .boton-1;
 }
 .reservar{
     grid-area: boton;
-     background-color:rgb(163, 10, 4);
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 15px;
-    height: 45px;
-    width: 180px;    
+    @extend .boton-1   
 }
 .boton-enviar{
     background-color:white !important;
@@ -51,8 +38,7 @@
     border-radius: 50px;
     padding: 8px;
     transition: all 0,2s ease-in-out;
-
-    .boton-enviar:hover{
+    &:hover{
         background-color: rgb(163, 10, 4) !important;
         color:white ;  
     }
@@ -60,14 +46,7 @@
 }
 // Section nosotros
 .reserva{
-    background-color:rgb(163, 10, 4);
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 15px;
-    height: 45px;
-    width: 180px;
+    @extend .boton-1
 }
 .boton-reservar{
     display: flex;

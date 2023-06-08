@@ -14,6 +14,7 @@
 header {
   position: fixed;
   width: 100%;
+  z-index: 20;
 }
 
 .navbar {
@@ -23,13 +24,26 @@ header {
 }
 .navbar .navbar-collapse {
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  margin-right: 25px;
 }
 
 .nav-link:hover {
   background-color: rgb(121, 120, 120);
   color: white !important;
   border-radius: 7px;
+}
+
+.menu-h {
+  margin-left: 250px;
+}
+@media (max-width: 700px) {
+  .menu-h {
+    margin-left: 0;
+  }
 }
 
 .redes {
@@ -39,10 +53,6 @@ header {
 .redes a {
   padding: 10px;
   text-decoration: none;
-}
-
-.menu-h {
-  background-color: red;
 }
 
 .piedepag {
@@ -320,20 +330,7 @@ img {
   margin-top: -20px;
 }
 
-.boton-fletes {
-  background-color: rgb(163, 10, 4);
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 24px;
-  cursor: pointer;
-  border-radius: 15px;
-  height: 45px;
-  width: 180px;
-}
-
-.boton-mudanzas {
+.boton-1, .reserva, .reservar, .boton-mudanzas, .boton-fletes {
   background-color: rgb(163, 10, 4);
   border: none;
   color: white;
@@ -348,14 +345,6 @@ img {
 
 .reservar {
   grid-area: boton;
-  background-color: rgb(163, 10, 4);
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-  border-radius: 15px;
-  height: 45px;
-  width: 180px;
 }
 
 .boton-enviar {
@@ -367,20 +356,9 @@ img {
   padding: 8px;
   transition: all 0, 2s ease-in-out;
 }
-.boton-enviar .boton-enviar:hover {
+.boton-enviar:hover {
   background-color: rgb(163, 10, 4) !important;
   color: white;
-}
-
-.reserva {
-  background-color: rgb(163, 10, 4);
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-  border-radius: 15px;
-  height: 45px;
-  width: 180px;
 }
 
 .boton-reservar {
