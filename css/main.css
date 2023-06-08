@@ -21,6 +21,7 @@ header {
   background-color: rgb(194, 193, 193);
   padding: 2rem;
   position: fixed;
+  width: 100%;
 }
 .navbar .navbar-collapse {
   align-items: center;
@@ -132,7 +133,7 @@ img {
   #portada-home {
     background-image: url("../imgfletes/homequerie.jpg");
     background-repeat: no-repeat;
-    height: 500px;
+    height: auto;
     width: 100%;
   }
 }
@@ -373,7 +374,7 @@ h2 {
   color: white !important;
   text-align: center;
   padding: 20px;
-  background-color: rgb(163, 10, 4);
+  background-color: #a30a04;
   border-radius: 9px;
 }
 @media (max-width: 700px) {
@@ -476,7 +477,7 @@ p {
 @media (max-width: 700px) {
   .caja1 {
     margin: 5px;
-    width: 400px;
+    width: 350px;
   }
 }
 .caja1 .caja2 {
@@ -711,4 +712,4 @@ p {
   font-size: 17px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */
