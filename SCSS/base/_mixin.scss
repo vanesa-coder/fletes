@@ -8,3 +8,7 @@
     display: flex;
     flex-direction: column;
 }
+@mixin combinacion-disp{
+    @include display;
+    @include disp-col;
+}

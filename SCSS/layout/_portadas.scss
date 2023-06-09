@@ -8,8 +8,9 @@
      @media(max-width:700px){
         background-image: url("../imgfletes/homequerie.jpg");
         background-repeat: no-repeat;
-        height: auto;
+        height: 400px;
         width: 100%;
+        background-size: auto;
         
     }
 }
@@ -28,6 +29,7 @@
         background-repeat: no-repeat;
         width: 100%;
         height: 450px;
+        background-size: auto;
         margin-bottom: 20px;
     }
 }
@@ -46,8 +48,9 @@
         background-image: url("../imgfletes/portadamudmedia.jpg");
         background-repeat: no-repeat;
         width: 100%;
-        height: 450px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        background-size: auto;
+        
     }
 }
 
@@ -62,6 +65,8 @@
 
     @media(max-width:700px){
         width: 100%;
+        height: 450px;
+        background-size: auto;
     }
 }
 #portada-contacto{
@@ -71,6 +76,11 @@
     width: 100%;
     height: 500px;
     background-size: 100%;
+    @media(max-width:700px){
+        width: 100%;
+        height: 450px;
+        background-size: auto;
+    }
 }
 
  .portada-home{
@@ -88,6 +98,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        height: auto;
     }
  }
  .portada-fletes{
@@ -116,6 +127,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        padding: 0;
     }  
  }
 
@@ -175,9 +187,11 @@
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.37);
     margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
 
     @media(max-width:700px){
-        font-size: 16px;
+        font-size: 14px;
     }
  }
 .botones{

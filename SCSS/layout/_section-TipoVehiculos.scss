@@ -2,10 +2,9 @@
     background-color:  black;
     width: 200px;
     height: 295px;
-    color: rgb(245, 242, 53);
+    color: $color-p-vehiculos;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    @include disp-col;
     align-items: center;
     justify-content: space-around;
     @media(max-width:700px){
@@ -14,10 +13,7 @@
     }
     
     .caja2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;   
+        @include combinacion-disp;  
      }
        .caja2 p{
             font-size: 18px;
@@ -26,8 +22,7 @@
 
 @media(max-width:700px){
     .cajas-vehiculos{
-        display: flex;
-        flex-direction: column;
+        @include disp-col;
         align-items: center;    
     }
 }

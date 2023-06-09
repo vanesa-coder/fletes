@@ -1,10 +1,7 @@
 .pagos{
     width: 100%;
     height: auto; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
+   @include combinacion-disp;
 }
 .facil{
     width: 100%;

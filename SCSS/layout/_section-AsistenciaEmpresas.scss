@@ -5,8 +5,7 @@
     @media(max-width:700px){
         width: 100%;
         height: 750px;
-        display: flex;
-        flex-direction: column;       
+        @include disp-col;       
     }
 }
 .imgen-asist{
@@ -17,20 +16,14 @@
     }
 }
 .caja-inf-asist{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include combinacion-disp;
     line-height: 15px;margin-top: -70px;
     @media(max-width:700px){
         margin-top:20px;
     }
 }
 .inf-asist{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include combinacion-disp;
 }
 .caja-asist img{
     padding-top: 10px;
