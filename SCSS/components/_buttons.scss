@@ -1,13 +1,12 @@
 .whatsapp{
-    display: flex;
-    justify-content: end;
-    width: 100%;
+    margin-left: 1250px;
     position: fixed;
     z-index: 20;
+    @media(max-width:700px){
+        margin-left: 280px;
+    }
 }
-#whatsapp{
-   margin-top: -20px;
-}
+
 .botones{
     margin-top: 10px
 }

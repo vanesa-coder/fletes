@@ -358,15 +358,14 @@ img {
   }
 }
 .whatsapp {
-  display: flex;
-  justify-content: end;
-  width: 100%;
+  margin-left: 1250px;
   position: fixed;
   z-index: 20;
 }
-
-#whatsapp {
-  margin-top: -20px;
+@media (max-width: 700px) {
+  .whatsapp {
+    margin-left: 280px;
+  }
 }
 
 .botones {
