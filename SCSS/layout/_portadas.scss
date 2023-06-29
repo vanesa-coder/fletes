@@ -92,7 +92,7 @@
     grid-template-areas: 
     "titulo titulo titulo"
     "texto texto texto"
-    ". boton ."; 
+    "boton boton boton"; 
 
     @media(max-width:700px){
         display: flex;

@@ -5,10 +5,11 @@
   text-align: center;
   text-decoration: none;
   font-size: 24px;
+  font-family: "Montserrat-Light";
   cursor: pointer;
-  border-radius: 15px;
-  height: 45px;
-  width: 180px;
+  border-radius: 30px;
+  height: 60px;
+  width: 200px;
 }
 
 @font-face {
@@ -237,7 +238,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "titulo titulo titulo" "texto texto texto" ". boton .";
+  grid-template-areas: "titulo titulo titulo" "texto texto texto" "boton boton boton";
 }
 @media (max-width: 700px) {
   .portada-home {
