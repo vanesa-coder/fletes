@@ -23,14 +23,14 @@
 }
 .boton-enviar{
     background-color:white !important;
-    color: rgb(163, 10, 4) ;
+    color: $fondo-titulos ;
     width: 180px;
-    border-color: rgb(163, 10, 4) !important;
+    border-color: $fondo-titulos !important;
     border-radius: 50px;
     padding: 8px;
     transition: all 0,2s ease-in-out;
     &:hover{
-        background-color: rgb(163, 10, 4) !important;
+        background-color: $fondo-titulos !important;
         color:white ;  
     }
     

@@ -1,11 +1,11 @@
 .boton-1, .reserva, .reservar, .boton-mudanzas, .boton-fletes {
-  background-color: rgb(163, 10, 4);
+  background-color: #F53A68;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 24px;
-  font-family: "Montserrat-Light";
+  font-size: 22px;
+  font-family: "montserrat";
   cursor: pointer;
   border-radius: 30px;
   height: 60px;
@@ -20,6 +20,14 @@
   font-family: "Releway-ExtraBold";
   src: url(../assets/fonts/Raleway-ExtraBold.ttf);
 }
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(../assets/fonts/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../assets/fonts/Roboto-Bold.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +40,7 @@ header {
 }
 
 .navbar {
-  background-color: rgb(194, 193, 193);
+  background-color: 1;
   padding: 2rem;
   position: fixed;
   width: 100%;
@@ -46,10 +54,24 @@ header {
   margin-right: 25px;
 }
 
-.nav-link:hover {
-  background-color: rgb(121, 120, 120);
+.nav-item {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.nav-link {
   color: white !important;
+  font-family: "roboto-thin";
+}
+.nav-link:hover {
+  background-color: #F53A68;
+  color: black !important;
   border-radius: 7px;
+}
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
 }
 
 .menu-h {
@@ -63,15 +85,21 @@ header {
 
 .estoy-aca {
   font-size: 20px;
-  font-weight: bold;
+  background-color: #F53A68;
+  border-radius: 15px;
 }
 
 .redes {
   grid-area: redes;
   display: inline-block;
 }
-.redes a {
+.redes i {
+  font-size: 20px;
+  color: white;
   padding: 10px;
+}
+.redes a {
+  padding: 15px;
   text-decoration: none;
 }
 
@@ -308,7 +336,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto-Bold";
   font-size: 64px !important;
   color: white;
 }
@@ -379,15 +407,15 @@ img {
 
 .boton-enviar {
   background-color: white !important;
-  color: rgb(163, 10, 4);
+  color: #F53A68;
   width: 180px;
-  border-color: rgb(163, 10, 4) !important;
+  border-color: #F53A68 !important;
   border-radius: 50px;
   padding: 8px;
   transition: all 0, 2s ease-in-out;
 }
 .boton-enviar:hover {
-  background-color: rgb(163, 10, 4) !important;
+  background-color: #F53A68 !important;
   color: white;
 }
 
@@ -403,7 +431,7 @@ h2 {
   color: #ffffff !important;
   text-align: center;
   padding: 20px;
-  background-color: #a30a04;
+  background-color: #F53A68;
   border-radius: 9px;
 }
 @media (max-width: 700px) {
@@ -483,6 +511,7 @@ p {
 .syr .lojack {
   grid-area: lojack;
   padding: 40px 75px;
+  border-radius: 30px;
 }
 .syr .mafre {
   grid-area: mafre;
@@ -538,10 +567,15 @@ p {
     height: 650px;
   }
 }
+.formulario-contacto .container {
+  max-width: 500px;
+}
 .formulario-contacto .caja-formulario {
+  width: 50%;
   margin-bottom: 100px;
   margin-top: 50px;
-  border: 3px solid #a30a04;
+  border: 3px solid #F53A68 !important;
+  border-color: #F53A68 !important;
   border-radius: 8px;
 }
 
@@ -658,7 +692,7 @@ p {
   }
 }
 .beneficios .caja-beneficio .beneficio {
-  background-color: #a30a04;
+  background-color: #F53A68;
   width: 300px;
   height: 250px;
   text-align: center;
@@ -758,6 +792,24 @@ p {
 }
 .caja-equipamiento p {
   font-size: 17px;
+}
+
+.fletesCaba {
+  text-align: center;
+  margin: 30px;
+}
+
+ul li {
+  display: inline-block;
+  width: 20%;
+}
+ul a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "roboto-bold";
+  color: black;
+  padding: 50px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,10 +4,11 @@ header{
     z-index: 20;
 }    
 .navbar{
-    background-color:rgb(194, 193, 193);
+    background-color:opacity($color: $color-subtitulo);
     padding: 2rem;
     position: fixed;
     width: 100%;
+    
 
     .navbar-collapse{
         align-items: center;
@@ -17,10 +18,22 @@ header{
 .navbar-toggler{
     margin-right: 25px;
 }
-.nav-link:hover{
-    background-color: rgb(121, 120, 120);
+.nav-item{
+    padding: 5px;
+    font-size: 20px;
+}
+.nav-link{
     color: white !important;
+    font-family: "roboto-thin";
+    &:hover{
+    background-color: $fondo-titulos;
+    color: black !important;
     border-radius: 7px;
+    }
+}
+.navbar-brand img{
+    width: 150px;
+    height: auto;
 }
 .menu-h{
     margin-left: 250px;
@@ -30,15 +43,21 @@ header{
 }
 .estoy-aca{
     font-size: 20px;
-    font-weight: bold;
+    // font-weight: bold;
+    background-color: $fondo-titulos;
+    border-radius: 15px;
 }
 
  .redes{
     grid-area: redes;
     display: inline-block;
-
+        i{
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+        }
         a{
-        padding: 10px;
+        padding: 15px;
         text-decoration: none;
      }
 }
