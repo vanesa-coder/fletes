@@ -1,7 +1,7 @@
 .piedepag{
-    background-color:  rgb(194, 193, 193);
+    background-color: $color-subtitulo;
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-areas: 
@@ -15,15 +15,18 @@
           height: 120px;
           margin-top: 150px;
       }
-
 }
-
+.logoFooter{
+   width: 150px;
+   height: auto;
+}
  img{
     grid-area: logo;
  }
 
  .menu-footer{
     grid-area: menu;
+    width: 600px;
     @media(max-width:700px){
       display: none;
     }
@@ -45,14 +48,14 @@
         padding: 10px;
         margin-top: 20px;
         text-decoration: none;
-        color:black;
+        color:white;
         font-size: 18px;
         font-family: "Montserrat";
         
         &:hover{
-         background-color: rgb(121, 120, 120);
+         background-color: $fondo-titulos;
          border-radius: 7px;
-         color: white;
+         color:black;
       }
      }
     
@@ -63,10 +66,23 @@
  .redes-footer{
     grid-area: redes;
     display: inline-block;
-
+    margin-top: 18px;
+    
+    
+    i{
+      font-size: 20px;
+      color: white;
+      padding: 10px;
+  }
     a{
         padding: 10px;
         text-decoration: none;
+     }
+     @media(max-width:700px){
+      ul{
+         display: flex;
+         margin-left: -30px;
+       }
      }
  }
  

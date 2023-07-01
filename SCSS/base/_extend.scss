@@ -10,4 +10,8 @@
     border-radius: 30px;
     height: 60px;
     width: 200px;
+    @media(max-width:700px){
+        height: 45px;
+        width: 180px;
+    }
 }

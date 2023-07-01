@@ -1,10 +1,13 @@
 header{
     position: fixed;
+    background-color:rgba(48, 47, 47, 0.233);
     width: 100%;
     z-index: 20;
+    @media(max-width:700px){
+        background-color: $color-subtitulo;
+    }
 }    
 .navbar{
-    background-color:opacity($color: $color-subtitulo);
     padding: 2rem;
     position: fixed;
     width: 100%;
@@ -37,14 +40,18 @@ header{
 }
 .menu-h{
     margin-left: 250px;
+    width: 600px;
+    a{
+        font-size: 18px;
+    }
     @media(max-width:700px){
-        margin-left: 0;
+        margin-left: -85px;
     }    
 }
 .estoy-aca{
     font-size: 20px;
     // font-weight: bold;
-    background-color: $fondo-titulos;
+    background-color:#f53a6957;
     border-radius: 15px;
 }
 
@@ -59,6 +66,14 @@ header{
         a{
         padding: 15px;
         text-decoration: none;
-     }
+        }
+        @media(max-width:700px){
+           ul{
+            display: flex;
+            padding-left: 7rem;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+           } 
+        }
 }
  

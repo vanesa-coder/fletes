@@ -16,6 +16,7 @@
 }
 .boton-mudanzas{
     @extend .boton-1;
+    margin-bottom: 16px;
 }
 .reservar{
     grid-area: boton;
