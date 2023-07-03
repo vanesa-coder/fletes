@@ -27,7 +27,7 @@ header{
 }
 .nav-link{
     color: white !important;
-    font-family: "roboto-thin";
+    font-family: $font-light;
     &:hover{
     background-color: $fondo-titulos;
     color: black !important;
@@ -49,9 +49,9 @@ header{
     }    
 }
 .estoy-aca{
-    font-size: 20px;
-    // font-weight: bold;
-    background-color:#f53a6957;
+    font-size: 20spx;
+    font-weight:900; 
+    // background-color:$color-subtitulo;
     border-radius: 15px;
 }
 

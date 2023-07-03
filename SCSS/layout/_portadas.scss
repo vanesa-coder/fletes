@@ -166,7 +166,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto-Bold";
+    font-family: $font-medium;
     font-size: 64px !important;
     color: white;
     
@@ -178,7 +178,7 @@
  .texto{
     grid-area: texto;
     text-align: center;
-    font-family: "montserrat";
+    font-family: $font-light;
     font-size: 18px;
     color: white;
     display: flex;

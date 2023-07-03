@@ -23,7 +23,7 @@
 <body>
     <!--HEADER-->
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fondoBarra top">
+        <nav class="navbar navbar-expand-md navbar-dark fondoBarra top">
            <div class="container-fluid">
               <div>  
                 <a class="navbar-brand" href="index.html">
@@ -39,10 +39,10 @@
                     <li class="nav-item estoy-aca">
                         <a class="nav-link active " aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item lead">
+                    <li class="nav-item ">
                         <a class="nav-link" href="Paginas/fletes.html">Fletes</a>
                     </li>
-                    <li class="nav-item lead">
+                    <li class="nav-item ">
                         <a class="nav-link" href="Paginas/mudanzas.html">Mudanzas</a>
                     </li>
                     <li class="nav-item lead">
@@ -94,25 +94,29 @@
             </div>    
             <div>
                 <a class="whatsapp" href="whatsapp.com" target="_blank">
-                    <img src="imgfletes/iconowhatsapp.png" alt="whatsapp">
+                    <button> <img src="imgfletes/iconowhatsapp.png" alt="whatsapp"></button>
                 </a>
             </div>
         </section>
         <!--Sección Seguridad y Respaldo--> 
         <section class="syr">
-                <h2 class="seguridad">Seguridad y respaldo</h2>
-                <p class="subt respaldo" >Contamos con la cobertura necesaria para evitar cualquier tipo de inconveniente</p>
+            <h2 class="seguridad">Seguridad y respaldo</h2>
+            <p class="subt respaldo" >Contamos con la cobertura necesaria para evitar cualquier tipo de inconveniente</p>
+            <div class="logos-seg">
                 <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="lojack " src="imgfletes/logo-lojack.png" alt="LoJack">
                 <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="mafre" src="imgfletes/logo-mafre.png" alt="Mafre">
                 <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="vtv" src="imgfletes/logo-vtv.jpg" alt="VTV">
+            </div>
         </section>
         <!--Sección Facilidades de pago-->
         <section>
             <div class="pagos">
                 <h2 class="facil">Facilidades de pago</h2>
-                <p class="subt detalle">Podés pagar con tarjeta de crédito, débito o transferencia bancaria. No tomamos seña por la reserva<br>
-                ni cobramos por adelantado, cualquier medio de pago que elijas lo abonas al finalizar el servicio.</p>
-                <img class="img-tarjetas tarjeta" src="imgfletes/tarjetascredito.jpg" alt="tarjetas de credito">    
+                <div class="tarjeta">
+                    <img src="imgfletes/tarjetascredito.jpg" alt="tarjetas de credito">
+                    <p class="subt detalle">Podés pagar con tarjeta de crédito, débito o transferencia bancaria. No tomamos seña por la reserva<br>
+                    ni cobramos por adelantado, cualquier medio de pago que elijas lo abonas al finalizar el servicio.</p>
+                </div>    
             </div>
         </section>
         <!--Sección Tipo de vehículos-->
@@ -236,7 +240,7 @@
             <img class="logoFooter" src="imgfletes/logo-malaga.jpg" alt="logo Malaga">
             <nav class="menu-footer">
                 <ul>
-                    <li><a href="index.html">Home</a></li>    
+                    <li class="estoy-aca"><a href="index.html">Home</a></li>    
                     <li><a href="paginas/fletes.html">Fletes</a></li>
                     <li><a href="paginas/mudanzas.html">Mudanzas</a></li>
                     <li><a href="paginas/empresas.html">Empresas</a></l>

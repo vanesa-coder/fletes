@@ -5,7 +5,7 @@
   text-align: center;
   text-decoration: none;
   font-size: 22px;
-  font-family: "montserrat";
+  font-family: "Roboto-Thin";
   cursor: pointer;
   border-radius: 30px;
   height: 60px;
@@ -33,6 +33,14 @@
 @font-face {
   font-family: "Roboto-Bold";
   src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../assets/fonts/Roboto-Light.ttf);
 }
 * {
   margin: 0;
@@ -72,7 +80,7 @@ header {
 
 .nav-link {
   color: white !important;
-  font-family: "roboto-thin";
+  font-family: "Roboto-Light";
 }
 .nav-link:hover {
   background-color: #F53A68;
@@ -99,8 +107,8 @@ header {
 }
 
 .estoy-aca {
-  font-size: 20px;
-  background-color: rgba(245, 58, 105, 0.3411764706);
+  font-size: 20spx;
+  font-weight: 900;
   border-radius: 15px;
 }
 
@@ -168,8 +176,6 @@ img {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  font-size: 18px;
-  font-family: "montserrat";
 }
 .menu-footer li {
   display: inline-block;
@@ -180,8 +186,8 @@ img {
   margin-top: 20px;
   text-decoration: none;
   color: white;
-  font-size: 18px;
-  font-family: "Montserrat";
+  font-size: 20px;
+  font-family: "Roboto-Light";
 }
 .menu-footer a:hover {
   background-color: #F53A68;
@@ -196,7 +202,7 @@ img {
 }
 .redes-footer i {
   font-size: 20px;
-  color: white;
+  color: black;
   padding: 10px;
 }
 .redes-footer a {
@@ -204,9 +210,9 @@ img {
   text-decoration: none;
 }
 @media (max-width: 700px) {
-  .redes-footer ul {
+  .redes-footer .redes-footer {
     display: flex;
-    margin-left: -30px;
+    justify-content: space-around;
   }
 }
 
@@ -377,7 +383,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto-Bold";
+  font-family: "Roboto-Medium";
   font-size: 64px !important;
   color: white;
 }
@@ -390,7 +396,7 @@ img {
 .texto {
   grid-area: texto;
   text-align: center;
-  font-family: "montserrat";
+  font-family: "Roboto-Light";
   font-size: 18px;
   color: white;
   display: flex;
@@ -471,7 +477,7 @@ img {
 }
 
 h2 {
-  font-family: "montserrat";
+  font-family: "Roboto-Light";
   font-size: 50px !important;
   color: #404040 !important;
   text-align: center;
@@ -487,7 +493,7 @@ h2 {
 }
 
 p {
-  font-family: "montserrat" !important;
+  font-family: "Roboto-Light" !important;
   font-size: 25px;
   text-align: center !important;
   margin-bottom: 0;
@@ -517,55 +523,61 @@ p {
   display: flex;
   flex-direction: column;
 }
-
-.facil {
+.pagos .facil {
   width: 100%;
   height: auto;
 }
-
-.syr {
-  width: 100%;
-  height: 500px;
-  margin-top: 50px;
-  background-color: rgb(208, 245, 238);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 20% 20% 50%;
-  grid-template-areas: "seguridad seguridad seguridad" "respaldo respaldo respaldo" "lojack mafre vtv";
+.pagos .tarjeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px 30px 20px;
+}
+.pagos .tarjeta img {
+  width: 600px;
+  height: auto;
 }
 @media (max-width: 700px) {
-  .syr {
+  .pagos .pagos {
     display: flex;
     flex-direction: column;
+  }
+  .pagos .tarjeta {
+    display: flex;
+    flex-direction: column;
+  }
+  .pagos .tarjeta img {
+    width: 450px;
     height: auto;
   }
 }
-.syr .seguridad {
-  grid-area: seguridad;
+
+.syr {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  flex-direction: column;
+}
+.syr img {
+  width: 350px;
   height: auto;
 }
-.syr .respaldo {
-  grid-area: respaldo;
+
+.logos-seg {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
-.syr .lojack {
-  grid-area: lojack;
-  padding: 40px 75px;
-  border-radius: 30px;
-}
-.syr .mafre {
-  grid-area: mafre;
-  padding: 40px 75px;
-}
-.syr .vtv {
-  grid-area: vtv;
-  padding: 40px 75px;
+@media (max-width: 700px) {
+  .logos-seg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logos-seg img {
+    width: 400px;
+    height: auto;
+    padding-bottom: 15px;
+  }
 }
 
 .caja1 {
@@ -852,14 +864,18 @@ ul li {
 ul a {
   text-decoration: none;
   font-size: 18px;
-  font-family: "roboto-bold";
+  font-family: "Roboto-Medium";
   color: black;
-  padding: 50px;
-  text-align: center;
 }
 @media (max-width: 700px) {
-  ul li {
+  ul ul {
     width: 100%;
+  }
+  ul li {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin-left: 110px;
   }
 }
 

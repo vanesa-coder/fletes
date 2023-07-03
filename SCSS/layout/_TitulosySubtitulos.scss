@@ -1,5 +1,5 @@
 h2{
-    font-family: "montserrat";
+    font-family:$font-light;
     font-size: 50px !important;
     color: $color-subtitulo !important;
     text-align: center;
@@ -12,7 +12,7 @@ h2{
     }
 }
 p{
-    font-family:"montserrat" !important;
+    font-family:$font-light !important;
     font-size: 25px;
     text-align: center !important;
     margin-bottom: 0;
