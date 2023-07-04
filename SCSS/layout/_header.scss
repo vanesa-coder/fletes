@@ -45,7 +45,7 @@ header{
         font-size: 18px;
     }
     @media(max-width:700px){
-        margin-left: -85px;
+        margin-left: 15px;
     }    
 }
 .estoy-aca{
@@ -56,7 +56,7 @@ header{
 }
 
  .redes{
-    grid-area: redes;
+   
     display: inline-block;
         i{
             font-size: 20px;
@@ -70,9 +70,9 @@ header{
         @media(max-width:700px){
            ul{
             display: flex;
-            padding-left: 7rem;
+            // padding-left: 7rem;
             padding-top: 2rem;
-            padding-bottom: 1rem;
+            // padding-bottom: 1rem;
            } 
         }
 }

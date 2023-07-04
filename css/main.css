@@ -102,7 +102,7 @@ header {
 }
 @media (max-width: 700px) {
   .menu-h {
-    margin-left: -85px;
+    margin-left: 15px;
   }
 }
 
@@ -113,7 +113,6 @@ header {
 }
 
 .redes {
-  grid-area: redes;
   display: inline-block;
 }
 .redes i {
@@ -128,9 +127,7 @@ header {
 @media (max-width: 700px) {
   .redes ul {
     display: flex;
-    padding-left: 7rem;
     padding-top: 2rem;
-    padding-bottom: 1rem;
   }
 }
 
@@ -150,7 +147,6 @@ header {
     flex-direction: column-reverse;
     width: 100%;
     height: 120px;
-    margin-top: 150px;
   }
 }
 
@@ -178,7 +174,7 @@ img {
   list-style: none;
 }
 .menu-footer li {
-  display: inline-block;
+  display: block;
 }
 .menu-footer a {
   display: block;
@@ -211,7 +207,7 @@ img {
 }
 @media (max-width: 700px) {
   .redes-footer .redes-footer {
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
   }
 }
@@ -574,9 +570,10 @@ p {
     align-items: center;
   }
   .logos-seg img {
-    width: 400px;
+    width: 350px;
     height: auto;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
   }
 }
 
@@ -857,25 +854,25 @@ p {
   margin: 30px;
 }
 
-ul li {
+.fletesCabaLista li {
   display: inline-block;
   width: 20%;
 }
-ul a {
+.fletesCabaLista a {
   text-decoration: none;
   font-size: 18px;
   font-family: "Roboto-Medium";
   color: black;
 }
 @media (max-width: 700px) {
-  ul ul {
-    width: 100%;
+  .fletesCabaLista .fletesCabaLista {
+    width: 70%;
   }
-  ul li {
+  .fletesCabaLista li {
     display: flex;
     justify-content: center;
     width: 150px;
-    margin-left: 110px;
+    margin-left: 70px;
   }
 }
 
