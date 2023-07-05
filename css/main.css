@@ -1,5 +1,5 @@
 .boton-1, .reserva, .reservar, .boton-mudanzas, .boton-fletes {
-  background-color: #F53A68;
+  background-color: #991a16;
   border: none;
   color: white;
   text-align: center;
@@ -49,7 +49,7 @@
 
 header {
   position: fixed;
-  background-color: rgba(48, 47, 47, 0.233);
+  background-color: #404040;
   width: 100%;
   z-index: 20;
 }
@@ -79,11 +79,11 @@ header {
 }
 
 .nav-link {
-  color: white !important;
+  color: #ffffff !important;
   font-family: "Roboto-Light";
 }
 .nav-link:hover {
-  background-color: #F53A68;
+  background-color: #991a16;
   color: black !important;
   border-radius: 7px;
 }
@@ -94,7 +94,7 @@ header {
 }
 
 .menu-h {
-  margin-left: 250px;
+  margin-left: 200px;
   width: 600px;
 }
 .menu-h a {
@@ -121,7 +121,7 @@ header {
   padding: 10px;
 }
 .redes a {
-  padding: 15px;
+  padding: 8px;
   text-decoration: none;
 }
 @media (max-width: 700px) {
@@ -186,7 +186,7 @@ img {
   font-family: "Roboto-Light";
 }
 .menu-footer a:hover {
-  background-color: #F53A68;
+  background-color: #991a16;
   border-radius: 7px;
   color: black;
 }
@@ -217,7 +217,7 @@ img {
   background-image: url("../imgfletes/portadahome.jpeg");
   background-repeat: no-repeat;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   background-size: 100%;
 }
 @media (max-width: 700px) {
@@ -394,7 +394,7 @@ img {
   text-align: center;
   font-family: "Roboto-Light";
   font-size: 18px;
-  color: white;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -454,15 +454,15 @@ img {
 
 .boton-enviar {
   background-color: white !important;
-  color: #F53A68;
+  color: #991a16;
   width: 180px;
-  border-color: #F53A68 !important;
+  border-color: #991a16 !important;
   border-radius: 50px;
   padding: 8px;
   transition: all 0, 2s ease-in-out;
 }
 .boton-enviar:hover {
-  background-color: #F53A68 !important;
+  background-color: #991a16 !important;
   color: white;
 }
 
@@ -473,12 +473,10 @@ img {
 }
 
 h2 {
-  font-family: "Roboto-Light";
+  font-family: "Roboto-Medium";
   font-size: 50px !important;
-  color: #404040 !important;
+  color: black !important;
   text-align: center;
-  padding: 20px;
-  background-color: #F53A68;
   border-radius: 9px;
 }
 @media (max-width: 700px) {
@@ -490,7 +488,7 @@ h2 {
 
 p {
   font-family: "Roboto-Light" !important;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center !important;
   margin-bottom: 0;
 }
@@ -501,8 +499,8 @@ p {
 }
 
 .subt {
-  padding: 35px;
-  color: black;
+  padding: 15px;
+  color: #404040;
 }
 @media (max-width: 700px) {
   .subt {
@@ -510,39 +508,36 @@ p {
   }
 }
 
-.pagos {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.primerTitulo {
+  font-family: "Roboto-Medium";
+  font-size: 22px;
+  color: #991a16;
+  text-align: center;
 }
-.pagos .facil {
-  width: 100%;
-  height: auto;
-}
-.pagos .tarjeta {
+
+.tarjeta {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px 30px 30px 20px;
 }
-.pagos .tarjeta img {
+.tarjeta .facil {
+  width: 100%;
+  height: auto;
+}
+.tarjeta .facil .imagenTarjetas {
   width: 600px;
   height: auto;
 }
+.tarjeta .facil .detalleTarjetas {
+  padding: 20px;
+}
 @media (max-width: 700px) {
-  .pagos .pagos {
+  .tarjeta .tarjeta {
     display: flex;
     flex-direction: column;
   }
-  .pagos .tarjeta {
-    display: flex;
-    flex-direction: column;
-  }
-  .pagos .tarjeta img {
+  .tarjeta .tarjeta img {
     width: 450px;
     height: auto;
   }
@@ -555,6 +550,7 @@ p {
 .syr img {
   width: 350px;
   height: auto;
+  border-radius: 15px;
 }
 
 .logos-seg {
@@ -575,6 +571,11 @@ p {
     margin-bottom: 15px;
     border-radius: 15px;
   }
+}
+
+.vehiculos {
+  background-color: rgb(252, 242, 242);
+  height: 500px;
 }
 
 .caja1 {
@@ -629,8 +630,8 @@ p {
   width: 50%;
   margin-bottom: 100px;
   margin-top: 50px;
-  border: 3px solid #F53A68 !important;
-  border-color: #F53A68 !important;
+  border: 3px solid #991a16 !important;
+  border-color: #991a16 !important;
   border-radius: 8px;
 }
 
@@ -747,7 +748,7 @@ p {
   }
 }
 .beneficios .caja-beneficio .beneficio {
-  background-color: #F53A68;
+  background-color: #991a16;
   width: 300px;
   height: 250px;
   text-align: center;

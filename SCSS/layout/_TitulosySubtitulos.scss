@@ -1,10 +1,8 @@
 h2{
-    font-family:$font-light;
+    font-family:$font-medium;
     font-size: 50px !important;
-    color: $color-subtitulo !important;
+    color: $color-h2 !important;
     text-align: center;
-    padding: 20px;
-    background-color: $fondo-titulos;
     border-radius: 9px;
     @media(max-width:700px){
         font-size: 32px !important;
@@ -13,7 +11,7 @@ h2{
 }
 p{
     font-family:$font-light !important;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center !important;
     margin-bottom: 0;
     @media(max-width:700px){
@@ -22,10 +20,17 @@ p{
 }
     
 .subt{
-    padding:35px;
-    color: black;
+    padding:15px;
+    color: $color-subtitulo;
     @media(max-width:700px){
        padding: 25px;
     }
 }
     
+.primerTitulo{
+    font-family: $font-medium;
+    font-size: 22px;
+    color:$color-h3;
+    text-align: center;
+   
+}

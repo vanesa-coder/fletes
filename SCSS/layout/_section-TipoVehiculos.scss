@@ -1,8 +1,12 @@
+.vehiculos{
+    background-color: rgb(252, 242, 242);
+    height: 500px;
+}
 .caja1{
     background-color:  black;
     width: 200px;
     height: 295px;
-    color: $color-h1-h2;
+    color: $color-h1;
     border-radius: 10px;
     @include disp-col;
     align-items: center;
