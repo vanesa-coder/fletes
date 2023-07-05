@@ -844,6 +844,10 @@ p {
   text-align: center;
   margin: 30px;
 }
+.fletesCaba:hover {
+  background-color: #EB0001;
+  background-size: 1000px;
+}
 
 .fletesCabaLista li {
   display: inline-block;
@@ -854,6 +858,9 @@ p {
   font-size: 18px;
   font-family: "Roboto-Medium";
   color: black;
+}
+.fletesCabaLista a:hover {
+  color: #ffffff;
 }
 @media (max-width: 700px) {
   .fletesCabaLista .fletesCabaLista {
