@@ -519,25 +519,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 30px 30px 20px;
-}
-.tarjeta .facil {
-  width: 100%;
-  height: auto;
-}
-.tarjeta .facil .imagenTarjetas {
-  width: 600px;
-  height: auto;
-}
-.tarjeta .facil .detalleTarjetas {
-  padding: 20px;
+  margin: 25px;
 }
 @media (max-width: 700px) {
-  .tarjeta .tarjeta {
+  .tarjeta {
     display: flex;
     flex-direction: column;
   }
-  .tarjeta .tarjeta img {
+  .tarjeta img {
     width: 450px;
     height: auto;
   }
@@ -576,6 +565,12 @@ p {
 .vehiculos {
   background-color: rgb(252, 242, 242);
   height: 500px;
+  padding-top: 15px;
+}
+@media (max-width: 700px) {
+  .vehiculos {
+    height: 2060px;
+  }
 }
 
 .caja1 {
@@ -637,13 +632,8 @@ p {
 
 .formulario-quiero {
   width: 100%;
-  height: 500px;
-  margin-top: 100px;
-}
-@media (max-width: 700px) {
-  .formulario-quiero {
-    margin-bottom: -100px;
-  }
+  height: 400px;
+  margin-top: 40px;
 }
 
 .caja-formulario {
@@ -873,7 +863,7 @@ p {
     display: flex;
     justify-content: center;
     width: 150px;
-    margin-left: 70px;
+    margin-left: 50px;
   }
 }
 

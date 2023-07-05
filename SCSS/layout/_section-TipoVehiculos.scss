@@ -1,6 +1,10 @@
 .vehiculos{
     background-color: rgb(252, 242, 242);
     height: 500px;
+    padding-top: 15px;
+    @media(max-width:700px){
+        height: 2060px;
+    }
 }
 .caja1{
     background-color:  black;

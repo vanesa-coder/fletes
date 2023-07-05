@@ -1,24 +1,18 @@
 .tarjeta{
-    @include display;
-    margin: 30px 30px 30px 20px;
-    .facil{
-        width: 100%;
-        height: auto;
-    .imagenTarjetas{
-        width: 600px;
-        height: auto;
-    }
-    .detalleTarjetas{
-        padding: 20px;
-    }
-    }
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 25px;
     @media(max-width:700px){
-        .tarjeta{
-            @include disp-col;
+        display: flex;
+        flex-direction: column;
         img{
             width: 450px;
             height: auto;
         }
-        }
     }
 }
+
+    
+    
+   
