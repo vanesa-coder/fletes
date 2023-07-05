@@ -630,6 +630,84 @@ p {
   border-radius: 8px;
 }
 
+.formulario img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .formulario img {
+    height: 350px;
+  }
+  .formulario img img {
+    width: 100%;
+    height: 322px;
+  }
+}
+.formulario .formulario-titulos {
+  position: absolute;
+  margin-top: -255px;
+  margin-left: 370px;
+}
+@media (max-width: 700px) {
+  .formulario .formulario-titulos {
+    margin-left: 0px;
+    margin-top: -265px;
+  }
+}
+.formulario .formulario-titulo1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media (max-width: 700px) {
+  .formulario .formulario-titulo1 {
+    font-size: 28px;
+    margin-top: -45px;
+  }
+}
+.formulario .formulario-titulo2 {
+  font-size: 24px;
+  font-family: "Roboto-Light";
+  color: #ffffff;
+  margin-top: -20px;
+}
+@media (max-width: 700px) {
+  .formulario .formulario-titulo2 {
+    font-size: 18px;
+  }
+}
+.formulario .formulario-info {
+  width: 300px;
+  height: 40px;
+  margin-left: 30px;
+}
+@media (max-width: 700px) {
+  .formulario .formulario-info {
+    width: 230px;
+    height: 35px;
+    margin-left: 67px;
+    margin-bottom: 10px;
+  }
+}
+.formulario .boton-formulario {
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  border-color: #0bc151;
+  background-color: #0bc151;
+  margin-top: 20px;
+  margin-left: 265px;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .formulario .boton-formulario {
+    margin-left: 103px;
+  }
+}
+
 .formulario-quiero {
   width: 100%;
   height: 400px;
@@ -872,6 +950,45 @@ p {
     width: 150px;
     margin-left: 50px;
   }
+}
+
+.testimonios {
+  padding: 40px 40px 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonios .carousel {
+  max-width: 600px;
+  text-align: center;
+}
+
+.carousel-item {
+  height: 350px;
+  background-color: #1e1e1e;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-item .container .rounded-circle {
+  width: 60px;
+}
+.carousel-item .container .cliente {
+  font-weight: bold;
+  color: white;
+}
+.carousel-item .container .testimonio-texto {
+  color: white;
+  font-size: 18px;
+  padding: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

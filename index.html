@@ -171,33 +171,80 @@
                 </div>
             </div>
         </section>
-        <!--sección Formulario-->
-        <section>
-            <div class="formulario-quiero">
-                <h2>Quiero que me llamen</h2>
-                <div class="container caja-formulario">
-                    <form class="col-6 g-3 mt-3 mb-4 completo-formulario">
-                        <div class="col-6">
-                            <label for="inputname" class="form-label">Nombre*</label>
-                            <input type="text" class="form-control" id="inputname" placeholder="Nombre">
-                        </div>
-                        <!-- <div class="col-6">
-                            <label for="inputlastname" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" id="inputlastname" placeholder="Apellido">
-                        </div> -->
-                        <div class="col-4">
-                            <label for="inputphone" class="form-label">Teléfono*</label>
-                            <input type="text" class="form-control" id="inputphone" placeholder="Teléfono">
-                        </div>
-                        <!-- <div class="col-8">
-                            <label for="inputemail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputemail" placeholder="Email">
-                        </div> -->
-                        <div class="col-12 d-flex justify-content-center aling-items-center">
-                            <button type="submit" class="boton-enviar">ENVIAR</button>
-                        </div>
-                    </form>
+        <!--Testimonios-->
+        <section class="testimonios seccion-clara">
+            <h3 class="primerTitulo">Estos son alguno de nuestros clientes</h3>
+            <h2>Testimonios</h2>
+        <!--Carrusel-->
+        <div id="testimonios-carrusel" class="carousel carrusel-dark slide" data-bs-ride="carrusel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./imgfletes/carrusel4.jpg" alt="cliente">
+                    <p class="testimonio-texto">Excelente servicio. Me llego todo en tiempo y forma. Muy respetuosos y cuidadosos con mis objetos.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Milagros Capone</p>
+                    </div>
                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./imgfletes/carrusel5.jpg" alt="cliente">
+                    <p class="testimonio-texto">Contraté varias veces el servicio y siempre muy conforme. Muy buena atención.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Claudio Floridis</p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./imgfletes/carrusel2.jpg" alt="cliente">
+                    <p class="testimonio-texto">Excelente servicio, realmente fue una gran solucion para mi empresa. Destaco la logistica y planificación. Mis clientes y nosotros estamos agradecidos. Muy recomendable. </p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Arcapt</p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./imgfletes/carrusel3.jpg" alt="cliente">
+                    <p class="testimonio-texto">Muy buena atención, muy puntuales y sobre todo cuidadosos con todos mis muebles. Me facilitaron la mudanza. Gracias Gustavo!! </p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Mario Castillo</p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="./imgfletes/carrucel1.jpg" alt="cliente">
+                    <p class="testimonio-texto">100% recomendable, realice la mudanza de mi oficina y salio todo perfecto. Trajeron todos los materiales para embalar los elementos de la oficina. super prolijos. Mil gracias! </p>
+                    <div class="testimonio-info">
+                        <p class="cliente">Alberto Capal</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </section>
+        <!--sección Formulario-->
+        <section class="formulario">
+            <img class="formulario-imagen" src="./imgfletes/formularioquiero.jpg">
+            <div class="formulario-titulos">
+            <p class="formulario-titulo1">QUIERO QUE ME LLAMEN</p>
+            <p class="formulario-titulo2">Envianos tu número de teléfono y te llamamos al instante</p>
+            <input class="formulario-info" required type="text" name="nombre" placeholder="Nombre">
+            <input class="formulario-info" required type="tel" name="telefono" placeholder="Teléfono">
+            <div>
+            <button class="boton-formulario" type="submit"><i class="fa fa-envelope-o"></i>Enviar</button>
+            </div>
             </div>
         </section>
         <!--Barrios CABA-->
