@@ -107,11 +107,14 @@
         </section>
         <!--sección Facilidades de pago-->
         <section>
-            <div class="pagos">
-                <h2 class="facil">Facilidades de pago</h2>
+            <div class="tarjeta">
+                <img src="/imgfletes/tarjetascredito.jpg" alt="tarjetas de credito">
+                <div class="detalleTarjetas" >
+                    <h3 class="primerTitulo">Elegí cómo querés abonar</h3>
+                    <h2 class="facil">Facilidades de pago</h2>
                     <p class="subt detalle">Podés pagar con tarjeta de crédito, débito o transferencia bancaria. No tomamos seña por la reserva<br>
                     ni cobramos por adelantado, cualquier medio de pago que elijas lo abonas al finalizar el servicio.</p>
-                <img class="img-tarjetas tarjeta" src="../imgfletes/tarjetascredito.jpg" alt="tarjetas de credito">    
+                </div>    
             </div>
         </section>
         <!--Sección Seguridad y Respaldo--> 
@@ -123,32 +126,16 @@
             <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="vtv" src="../imgfletes/logo-vtv.jpg" alt="VTV">
         </section>
         <!--sección Formulario-->
-        <section>
-            <div class="formulario-quiero">
-                <h2>Quiero que me llamen</h2>
-                <div class="container caja-formulario">
-                    <form class="row g-3 mt-3 mb-4">
-                        <div class="col-6">
-                            <label for="inputname" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="inputname" placeholder="Nombre">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputlastname" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" id="inputlastname" placeholder="Apellido">
-                        </div>
-                        <div class="col-4">
-                            <label for="inputphone" class="form-label">Teléfono</label>
-                            <input type="text" class="form-control" id="inputphone" placeholder="Teléfono">
-                        </div>
-                        <div class="col-8">
-                            <label for="inputemail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputemail" placeholder="Email">
-                        </div>
-                        <div class="col-12 d-flex justify-content-center aling-items-center">
-                            <button type="submit" class="boton-enviar">ENVIAR</button>
-                        </div>
-                    </form>
-                </div>
+        <section class="formulario">
+            <img class="formulario-imagen" src="./imgfletes/formularioquiero.jpg">
+            <div class="formulario-titulos">
+            <p class="formulario-titulo1">QUIERO QUE ME LLAMEN</p>
+            <p class="formulario-titulo2">Envianos tu número de teléfono y te llamamos al instante</p>
+            <input class="formulario-info" required type="text" name="nombre" placeholder="Nombre">
+            <input class="formulario-info" required type="tel" name="telefono" placeholder="Teléfono">
+            <div>
+            <button class="boton-formulario" type="submit"><i class="fa fa-envelope-o"></i>Enviar</button>
+            </div>
             </div>
         </section> 
     </main>

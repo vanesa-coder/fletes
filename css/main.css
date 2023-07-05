@@ -11,6 +11,11 @@
   height: 60px;
   width: 200px;
 }
+.boton-1:hover, .reserva:hover, .reservar:hover, .boton-mudanzas:hover, .boton-fletes:hover {
+  background-color: #ffffff;
+  color: #EB0001;
+  font-weight: bold;
+}
 @media (max-width: 700px) {
   .boton-1, .reserva, .reservar, .boton-mudanzas, .boton-fletes {
     height: 45px;
@@ -535,6 +540,7 @@ p {
 .syr {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 .syr img {
   width: 350px;
@@ -654,7 +660,7 @@ p {
 @media (max-width: 700px) {
   .formulario .formulario-titulos {
     margin-left: 0px;
-    margin-top: -265px;
+    margin-top: -280px;
   }
 }
 .formulario .formulario-titulo1 {
@@ -677,6 +683,7 @@ p {
 @media (max-width: 700px) {
   .formulario .formulario-titulo2 {
     font-size: 18px;
+    padding: 15px;
   }
 }
 .formulario .formulario-info {
@@ -686,8 +693,8 @@ p {
 }
 @media (max-width: 700px) {
   .formulario .formulario-info {
-    width: 230px;
-    height: 35px;
+    width: 250px;
+    height: 37px;
     margin-left: 67px;
     margin-bottom: 10px;
   }
@@ -701,6 +708,11 @@ p {
   margin-top: 20px;
   margin-left: 265px;
   cursor: pointer;
+}
+.formulario .boton-formulario:hover {
+  background-color: #ffffff;
+  color: #0bc151;
+  font-weight: bold;
 }
 @media (max-width: 700px) {
   .formulario .boton-formulario {
@@ -922,10 +934,6 @@ p {
   text-align: center;
   margin: 30px;
 }
-.fletesCaba:hover {
-  background-color: #EB0001;
-  background-size: 1000px;
-}
 
 .fletesCabaLista li {
   display: inline-block;
@@ -936,9 +944,6 @@ p {
   font-size: 18px;
   font-family: "Roboto-Medium";
   color: black;
-}
-.fletesCabaLista a:hover {
-  color: #ffffff;
 }
 @media (max-width: 700px) {
   .fletesCabaLista .fletesCabaLista {
@@ -969,6 +974,11 @@ p {
   height: 350px;
   background-color: #1e1e1e;
 }
+@media (max-width: 700px) {
+  .carousel-item {
+    height: 380px;
+  }
+}
 
 .carousel-item .container {
   width: 100%;
@@ -988,7 +998,12 @@ p {
 .carousel-item .container .testimonio-texto {
   color: white;
   font-size: 18px;
-  padding: 30px;
+  padding: 25px 60px;
+}
+@media (max-width: 700px) {
+  .carousel-item .container .testimonio-texto {
+    padding: 6px 32px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
