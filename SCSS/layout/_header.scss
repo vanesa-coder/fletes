@@ -4,7 +4,7 @@ header{
     width: 100%;
     z-index: 20;
     @media(max-width:700px){
-        background-color: $color-subtitulo;
+        background-color: $color-header-footer;
     }
 }    
 .navbar{
@@ -35,7 +35,7 @@ header{
     }
 }
 .navbar-brand img{
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 .menu-h{

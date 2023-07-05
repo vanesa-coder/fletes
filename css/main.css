@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .boton-1, .reserva, .reservar, .boton-mudanzas, .boton-fletes {
   background-color: #EB0001;
   border: none;
@@ -60,7 +61,7 @@ header {
 }
 @media (max-width: 700px) {
   header {
-    background-color: #404040;
+    background-color: #1e1e1e;
   }
 }
 
@@ -94,7 +95,7 @@ header {
 }
 
 .navbar-brand img {
-  width: 150px;
+  width: 200px;
   height: auto;
 }
 
@@ -241,7 +242,6 @@ img {
   background-repeat: no-repeat;
   width: 100%;
   height: 500px;
-  margin-bottom: 100px;
   background-size: 100%;
 }
 @media (max-width: 700px) {
@@ -741,8 +741,8 @@ p {
 
 .nosotros {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 700px) {
   .nosotros {
@@ -754,19 +754,21 @@ p {
 .caja-nosotros {
   display: flex;
   flex-direction: column;
+  padding: 50px;
 }
 .caja-nosotros ul {
-  font-family: "montserrat";
+  font-family: "Roboto-Medium";
   font-size: 20px;
   text-align: left;
-  padding-left: 60px;
-  margin-top: 40px;
 }
-.caja-nosotros h3 {
+.caja-nosotros ul li {
+  text-decoration: underline;
+}
+.caja-nosotros .todo-el-año {
   text-align: center;
-  font-family: "montserrat";
+  font-family: "Roboto-Light";
   font-size: 24px;
-  margin-top: 50px;
+  font-weight: bold;
 }
 
 .servicios {
@@ -972,7 +974,7 @@ p {
 
 .carousel-item {
   height: 350px;
-  background-color: #1e1e1e;
+  background-color: #404040;
 }
 @media (max-width: 700px) {
   .carousel-item {
