@@ -51,6 +51,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .row {
@@ -545,7 +546,7 @@ p {
     margin-bottom: 50px;
   }
   .tarjeta img {
-    width: 450px;
+    width: 350px;
     height: auto;
   }
 }
@@ -584,8 +585,7 @@ p {
 }
 
 .vehiculos {
-  background-color: rgb(252, 242, 242);
-  height: 500px;
+  height: 600px;
   padding-top: 15px;
 }
 @media (max-width: 700px) {
@@ -593,17 +593,24 @@ p {
     height: 1532px;
   }
 }
+.vehiculos p {
+  margin-bottom: -10px;
+}
+
+.cajas-vehiculos {
+  margin: 0px 125px;
+}
 
 .caja1 {
-  background-color: black;
-  width: 200px;
-  height: 295px;
-  color: #ffffff;
-  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+.caja1 img {
+  width: 265px;
+  height: 465px;
+  border-radius: 15px;
 }
 @media (max-width: 700px) {
   .caja1 {
