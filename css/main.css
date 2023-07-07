@@ -333,7 +333,6 @@ img {
     flex-direction: column;
     justify-content: space-around;
     height: auto;
-    margin-top: 30px;
   }
 }
 
@@ -424,6 +423,7 @@ img {
 @media (max-width: 700px) {
   .texto {
     font-size: 14px;
+    margin-top: 30px;
   }
 }
 
@@ -543,6 +543,7 @@ p {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
+    margin: 20px;
     margin-bottom: 50px;
   }
   .tarjeta img {
@@ -575,12 +576,19 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: -40px;
+    margin-top: -40px;
   }
   .logos-seg img {
     width: 350px;
     height: auto;
     margin-bottom: 15px;
     border-radius: 15px;
+  }
+}
+@media (max-width: 700px) and (max-width: 700px) {
+  .logos-seg img {
+    width: 320px;
   }
 }
 
@@ -590,7 +598,7 @@ p {
 }
 @media (max-width: 700px) {
   .vehiculos {
-    height: 1532px;
+    height: 805px;
   }
 }
 .vehiculos p {
@@ -598,43 +606,40 @@ p {
 }
 
 .cajas-vehiculos {
-  margin: 0px 125px;
+  margin: 0px 124px;
 }
-
-.caja1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-.caja1 img {
-  width: 265px;
-  height: 465px;
-  border-radius: 15px;
-}
-@media (max-width: 700px) {
-  .caja1 {
-    margin: 16px;
-  }
-}
-.caja1 .caja2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-.caja1 .caja2 p {
-  font-size: 18px;
-}
-
 @media (max-width: 700px) {
   .cajas-vehiculos {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
+    height: 596px;
   }
 }
+
+.vehiculo1 {
+  display: flex;
+  justify-content: space-around;
+  width: 550px;
+}
+@media (max-width: 700px) {
+  .vehiculo1 {
+    width: 344px;
+  }
+}
+.vehiculo1 img {
+  width: 265px;
+  height: 465px;
+  border-radius: 15px;
+}
+@media (max-width: 700px) {
+  .vehiculo1 img {
+    width: 165px;
+    height: 292px;
+  }
+}
+
 .formulario-contacto {
   width: 100%;
   height: 800px;
@@ -829,7 +834,7 @@ p {
 @media (max-width: 700px) {
   .servicios {
     width: 100%;
-    height: 1700px;
+    height: 980px;
   }
 }
 
@@ -844,6 +849,17 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+}
+
+.cardAdicionales {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+}
+@media (max-width: 700px) {
+  .cardAdicionales {
+    width: 355px;
   }
 }
 

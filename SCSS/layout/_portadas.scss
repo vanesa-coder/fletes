@@ -103,7 +103,7 @@
         flex-direction: column;
         justify-content: space-around;
         height: auto;
-        margin-top: 30px;
+       
     }
  }
  .portada-fletes{
@@ -197,6 +197,7 @@
 
     @media(max-width:700px){
         font-size: 14px;
+        margin-top: 30px;
     }
  }
 .botones{

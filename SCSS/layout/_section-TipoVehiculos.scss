@@ -2,39 +2,38 @@
     height: 600px;
     padding-top: 15px;
     @media(max-width:700px){
-        height: 1532px;
+        height: 805px;
     }
     p{
         margin-bottom: -10px;
     }
 }
 .cajas-vehiculos{
-    margin: 0px 125px;
+    margin: 0px 124px;
+    @media(max-width:700px){
+        @include disp-col;
+        align-items: center; 
+        margin: 10px;  
+        height: 596px; 
+    }
 }
-.caja1{
+.vehiculo1{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    @media(max-width:700px){
+        width: 344px;
+    }
     img{
         width: 265px;
         height: 465px;
         border-radius: 15px;
-    }
-    @include disp-col;
-    align-items: center;
-    justify-content: space-around;
-    @media(max-width:700px){
-        margin: 16px;
+        @media(max-width:700px){
+        width: 165px;
+        height: 292px;
+        }
     }
     
-    .caja2{
-        @include combinacion-disp;  
-     }
-       .caja2 p{
-            font-size: 18px;
-        }
 }
 
-@media(max-width:700px){
-    .cajas-vehiculos{
-        @include disp-col;
-        align-items: center;    
-    }
-}
+
