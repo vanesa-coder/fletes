@@ -18,6 +18,8 @@
     }
 }
 .formulario{
+    margin-top: 50px;
+    margin-bottom: 50px;
     img{
     width: 100%;
     height: auto;
@@ -25,26 +27,24 @@
     display: inline-block;
     text-align: center;
     @media(max-width:700px){
-        height: 350px;
-        img{
-            width: 100%;
-            height: 322px;
-        }
+       height: 350px;
     }
     }
     .formulario-titulos{
         position: absolute;
-        margin-top: -255px;
+        margin-top: -273px;
         margin-left: 370px; 
         @media(max-width:700px){
             margin-left: 0px;
-            margin-top: -280px;
+            margin-top: -300px;
         }
     }
     .formulario-titulo1{
         font-size: 48px;
         font-weight: bold;
         color: $color-h1;
+        margin-bottom: 30px;
+
         @media(max-width:700px){
             font-size: 28px;
             margin-top: -45px;
@@ -64,6 +64,7 @@
         width: 300px;
         height: 40px;
         margin-left: 30px; 
+        margin-top: 5px;
         @media(max-width:700px){
             width: 250px;
             height: 37px;
@@ -90,6 +91,7 @@
         }
 
     }
+
     
 }
 .formulario-quiero{

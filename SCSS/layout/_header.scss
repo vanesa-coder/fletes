@@ -1,10 +1,11 @@
 header{
     position: fixed;
-    background-color:$color-header-footer;
+    background-color:black;
     width: 100%;
     z-index: 20;
+    margin-top: -77px;
     @media(max-width:700px){
-        background-color: $color-header-footer;
+        background-color: black;
     }
 }    
 .navbar{
@@ -49,10 +50,8 @@ header{
     }    
 }
 .estoy-aca{
-    font-size: 20spx;
-    font-weight:900; 
-    // background-color:$color-subtitulo;
-    border-radius: 15px;
+    font-weight:bold; 
+    font-family: $font-medium;   
 }
 
  .redes{
