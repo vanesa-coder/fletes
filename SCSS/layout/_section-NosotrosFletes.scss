@@ -2,9 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // margin-top: 10px;
-    // margin-bottom: 100px;
-
     @media(max-width:700px){
         @include disp-col;
     } 
@@ -12,9 +9,17 @@
         background-color: $color-h3;
         width: 457px;
         height: 460px;
+        @media(max-width:700px){
+            width: 337px;
+            height: 342px;
+        }
         img{
             padding-left: 12px;
             margin-top: -12px;
+            @media(max-width:700px){
+                width: 341px;
+                height: 343px;
+            }
         }
     }  
 }

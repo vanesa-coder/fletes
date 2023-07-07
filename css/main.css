@@ -560,6 +560,7 @@ p {
   width: 350px;
   height: auto;
   border-radius: 15px;
+  margin-top: 50px;
 }
 
 .logos-seg {
@@ -589,7 +590,7 @@ p {
 }
 @media (max-width: 700px) {
   .vehiculos {
-    height: 2060px;
+    height: 1532px;
   }
 }
 
@@ -606,8 +607,7 @@ p {
 }
 @media (max-width: 700px) {
   .caja1 {
-    margin: 5px;
-    width: 350px;
+    margin: 16px;
   }
 }
 .caja1 .caja2 {
@@ -771,9 +771,21 @@ p {
   width: 457px;
   height: 460px;
 }
+@media (max-width: 700px) {
+  .nosotros .cuadroImg {
+    width: 337px;
+    height: 342px;
+  }
+}
 .nosotros .cuadroImg img {
   padding-left: 12px;
   margin-top: -12px;
+}
+@media (max-width: 700px) {
+  .nosotros .cuadroImg img {
+    width: 341px;
+    height: 343px;
+  }
 }
 
 .caja-nosotros {
