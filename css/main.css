@@ -304,7 +304,6 @@ img {
 
 #portada-contacto {
   padding-top: 50px;
-  margin-top: 77px;
   background-image: url("../imgfletes/portadacontacto.jpg");
   background-repeat: no-repeat;
   width: 100%;
@@ -423,7 +422,8 @@ img {
 @media (max-width: 700px) {
   .texto {
     font-size: 14px;
-    margin-top: 30px;
+    margin-top: 17px;
+    margin-bottom: 15px;
   }
 }
 
@@ -454,6 +454,7 @@ img {
 @media (max-width: 700px) {
   .whatsapp {
     margin-left: 280px;
+    margin-top: 158px;
   }
 }
 
@@ -494,12 +495,10 @@ h2 {
   font-size: 50px !important;
   color: black;
   text-align: center;
-  border-radius: 9px;
 }
 @media (max-width: 700px) {
   h2 {
     font-size: 32px !important;
-    border-radius: 0px;
   }
 }
 
@@ -531,6 +530,11 @@ p {
   color: #EB0001;
   text-align: center;
 }
+@media (max-width: 700px) {
+  .primerTitulo {
+    padding: 0px 10px;
+  }
+}
 
 .tarjeta {
   display: flex;
@@ -543,7 +547,7 @@ p {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin: 20px;
+    margin: 15px;
     margin-bottom: 50px;
   }
   .tarjeta img {
@@ -555,8 +559,8 @@ p {
 .syr {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .syr img {
   width: 350px;
@@ -593,7 +597,7 @@ p {
 }
 
 .vehiculos {
-  height: 600px;
+  height: 680px;
   padding-top: 15px;
 }
 @media (max-width: 700px) {
@@ -602,11 +606,16 @@ p {
   }
 }
 .vehiculos p {
-  margin-bottom: -10px;
+  margin-bottom: 25px;
+}
+@media (max-width: 700px) {
+  .vehiculos p {
+    margin-bottom: -12px;
+  }
 }
 
 .cajas-vehiculos {
-  margin: 0px 124px;
+  margin: 0px 124px 50px 124px;
 }
 @media (max-width: 700px) {
   .cajas-vehiculos {
@@ -710,7 +719,6 @@ p {
 @media (max-width: 700px) {
   .formulario .formulario-titulo2 {
     font-size: 18px;
-    padding: 15px;
   }
 }
 .formulario .formulario-info {
@@ -723,7 +731,7 @@ p {
   .formulario .formulario-info {
     width: 250px;
     height: 37px;
-    margin-left: 67px;
+    margin-left: 56px;
     margin-bottom: 10px;
   }
 }
@@ -771,11 +779,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 77px;
 }
 @media (max-width: 700px) {
   .nosotros {
     display: flex;
     flex-direction: column;
+    margin: 77px 20px 10px 10px;
   }
 }
 .nosotros .cuadroImg {
@@ -785,8 +795,9 @@ p {
 }
 @media (max-width: 700px) {
   .nosotros .cuadroImg {
-    width: 337px;
-    height: 342px;
+    width: 311px;
+    height: 322px;
+    margin-top: 50px;
   }
 }
 .nosotros .cuadroImg img {
@@ -795,8 +806,8 @@ p {
 }
 @media (max-width: 700px) {
   .nosotros .cuadroImg img {
-    width: 341px;
-    height: 343px;
+    width: 321px;
+    height: 323px;
   }
 }
 
@@ -804,6 +815,12 @@ p {
   display: flex;
   flex-direction: column;
   padding: 50px;
+}
+@media (max-width: 700px) {
+  .caja-nosotros {
+    padding: 12px;
+    margin-top: 30px;
+  }
 }
 .caja-nosotros .cualidades {
   line-height: 0.5;
@@ -824,6 +841,7 @@ p {
   padding-top: 40px;
   margin-top: 50px;
   background-color: black;
+  margin-bottom: 50px;
 }
 .servicios .tituloServicio {
   color: white;
@@ -906,109 +924,6 @@ p {
   border: 3px solid #0bc151;
 }
 
-.beneficios {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-}
-@media (max-width: 700px) {
-  .beneficios {
-    width: 100%;
-    height: 1100px;
-  }
-}
-.beneficios .caja-beneficio {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-@media (max-width: 700px) {
-  .beneficios .caja-beneficio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.beneficios .caja-beneficio .beneficio {
-  background-color: #EB0001;
-  width: 300px;
-  height: 250px;
-  text-align: center;
-  font-size: 20px;
-  color: #ffffff;
-}
-@media (max-width: 700px) {
-  .beneficios .caja-beneficio .beneficio {
-    margin-bottom: 30px;
-  }
-}
-.beneficios .caja-beneficio .beneficio p {
-  padding-top: 10px;
-}
-
-.caja-asist {
-  width: 100%;
-  height: 470px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 80px;
-}
-@media (max-width: 700px) {
-  .caja-asist {
-    width: 100%;
-    height: 750px;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.imgen-asist {
-  padding: 20px;
-}
-@media (max-width: 700px) {
-  .imgen-asist {
-    width: 100%;
-    height: auto;
-  }
-}
-
-.caja-inf-asist {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  line-height: 15px;
-  margin-top: -25px;
-}
-@media (max-width: 700px) {
-  .caja-inf-asist {
-    margin-top: 20px;
-  }
-}
-
-.inf-asist {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.caja-asist img {
-  padding-top: 10px;
-}
-
-.caja-inf-asist p {
-  font-family: "montserrat";
-  font-size: 17px;
-}
-
-.caja-inf-asist h3 {
-  font-family: "montserrat";
-}
-
 .equipamiento {
   width: 100%;
   height: 500px;
@@ -1072,6 +987,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .testimonios .carousel {
@@ -1116,6 +1032,50 @@ p {
 @media (max-width: 700px) {
   .carousel-item .container .testimonio-texto {
     padding: 6px 32px;
+  }
+}
+
+.confian {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+@media (max-width: 700px) {
+  .confian {
+    padding: 25px;
+    margin-bottom: -30px;
+  }
+}
+.confian .confianzaClientes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .confian .confianzaClientes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+.confian .confianClientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+@media (max-width: 700px) {
+  .confian .confianClientes {
+    display: block;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+  }
+  .confian .confianClientes img {
+    margin: 8px;
+    width: 130px;
+    height: auto;
   }
 }
 

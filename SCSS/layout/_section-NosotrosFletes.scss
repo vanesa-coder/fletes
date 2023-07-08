@@ -2,23 +2,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 77px;
     @media(max-width:700px){
         @include disp-col;
+        margin: 77px 20px 10px 10px;
     } 
     .cuadroImg{
         background-color: $color-h3;
         width: 457px;
         height: 460px;
         @media(max-width:700px){
-            width: 337px;
-            height: 342px;
+            width: 311px;
+            height: 322px;
+            margin-top: 50px;
         }
         img{
             padding-left: 12px;
             margin-top: -12px;
             @media(max-width:700px){
-                width: 341px;
-                height: 343px;
+                width: 321px;
+                height: 323px;
             }
         }
     }  
@@ -26,6 +29,10 @@
 .caja-nosotros{
     @include disp-col;
     padding: 50px;
+    @media(max-width:700px){
+        padding: 12px;
+        margin-top: 30px;
+    }
 
      .cualidades{
         line-height: 0.5;

@@ -3,10 +3,8 @@ h2{
     font-size: 50px !important;
     color: $color-h2 ;
     text-align: center;
-    border-radius: 9px;
     @media(max-width:700px){
         font-size: 32px !important;
-        border-radius: 0px;
     }
 }
 p{
@@ -32,5 +30,9 @@ p{
     font-size: 22px;
     color:$color-h3;
     text-align: center;
+    @media(max-width:700px){
+        padding: 0px 10px;
+    }
+
    
 }

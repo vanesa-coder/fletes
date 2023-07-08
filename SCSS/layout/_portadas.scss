@@ -74,7 +74,7 @@
 }
 #portada-contacto{
     padding-top: 50px;
-    margin-top: 77px;
+    // margin-top: 77px;
     background-image: url("../imgfletes/portadacontacto.jpg");
     background-repeat: no-repeat;
     width: 100%;
@@ -197,7 +197,8 @@
 
     @media(max-width:700px){
         font-size: 14px;
-        margin-top: 30px;
+        margin-top: 17px;
+        margin-bottom: 15px;
     }
  }
 .botones{
