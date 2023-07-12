@@ -33,7 +33,7 @@
     .formulario-titulos{
         position: absolute;
         margin-top: -273px;
-        margin-left: 370px; 
+        margin-left: 300px; 
         @media(max-width:700px){
             margin-left: 0px;
             margin-top: -300px;
@@ -60,8 +60,20 @@
             // padding: 15px;
         }
     }
-    .formulario-info{
+    .formulario-info1{
         width: 300px;
+        height: 40px;
+        margin-left: 30px; 
+        margin-top: 5px;
+        @media(max-width:700px){
+            width: 250px;
+            height: 37px;
+            margin-left: 56px;
+            margin-bottom: 10px;
+        }  
+    }
+    .formulario-info2{
+        width: 400px;
         height: 40px;
         margin-left: 30px; 
         margin-top: 5px;
@@ -110,3 +122,6 @@
         margin-bottom: 0;
     }
 }
+.verificarForm {
+    border: solid 2px red;
+  }

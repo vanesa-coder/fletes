@@ -79,7 +79,7 @@ soluciones integrales a medida">
                     <button class="reservar">Contacto</button></a>
                 </div>
                 <div>
-                    <a class="whatsapp" href="whatsapp.com" target="_blank">
+                    <a class="whatsapp2" href="https://api.whatsapp.com/send?phone=+5491166549841&text=Hola%20Vi%20tu%20contacto%20en%20fletesymudanzasmalaga.com.ar" target="_blank">
                         <img src="../imgfletes/iconowhatsapp.png" alt="whatsapp">
                     </a>
                 </div>
@@ -128,10 +128,12 @@ soluciones integrales a medida">
             <div class="formulario-titulos">
             <p class="formulario-titulo1">QUIERO QUE ME LLAMEN</p>
             <p class="formulario-titulo2">Envianos tu número de teléfono y te llamamos al instante</p>
-            <input class="formulario-info" required type="text" name="nombre" placeholder="Nombre">
-            <input class="formulario-info" required type="tel" name="telefono" placeholder="Servicio (Ej.Mudanza)">
+            <input id="f4bFormNombre" class="formulario-info1" required type="text" name="nombre" placeholder="Nombre">
+                <input id="f4bFormMensaje" class="formulario-info2" required type="tel" name="telefono" placeholder="Consulta">
             <div>
-            <button class="boton-formulario" type="submit"><i class="fa fa-envelope-o"></i>Enviar</button>
+                <a id="f4bFormWpp">
+                    <button class="boton-formulario" type="submit">Enviar</button>
+                </a>
             </div>
             </div>
         </section> 
@@ -291,5 +293,6 @@ soluciones integrales a medida">
     <script>
         AOS.init();
       </script>
+      <script src="../JS/wppForm.js"></script>
 </body>
 </html>

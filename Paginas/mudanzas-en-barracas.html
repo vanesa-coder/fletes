@@ -79,7 +79,7 @@
                         <button class="reservar">Reservar</button></a>   
                     </div>    
                 <div>
-                    <a class="whatsapp" href="whatsapp.com" target="_blank">
+                    <a class="whatsapp2" href="https://api.whatsapp.com/send?phone=+5491166549841&text=Hola%20Vi%20tu%20contacto%20en%20fletesymudanzasmalaga.com.ar" target="_blank">
                         <img src="../imgfletes/iconowhatsapp.png" alt="whatsapp">
                     </a>
                 </div>
@@ -198,10 +198,12 @@
             <div class="formulario-titulos">
             <p class="formulario-titulo1">QUIERO QUE ME LLAMEN</p>
             <p class="formulario-titulo2">Envianos tu número de teléfono y te llamamos al instante</p>
-            <input class="formulario-info" required type="text" name="nombre" placeholder="Nombre">
-            <input class="formulario-info" required type="tel" name="telefono" placeholder="Servicio (Ej.Mudanza)">
+            <input id="f4bFormNombre" class="formulario-info1" required type="text" name="nombre" placeholder="Nombre">
+            <input id="f4bFormMensaje" class="formulario-info2" required type="tel" name="telefono" placeholder="Consulta">
             <div>
-            <button class="boton-formulario" type="submit"><i class="fa fa-envelope-o"></i>Enviar</button>
+                <a id="f4bFormWpp">
+                    <button class="boton-formulario" type="submit">Enviar</button>
+                </a>
             </div>
             </div>
         </section> 
@@ -209,26 +211,26 @@
             <h2>Mudanzas en Capital Federal</h2>
             <div class="fletesCaba">
                 <ul class="fletesCabaLista">
-                    <li><a href="./Paginas/fletes-en-almagro.html">Almagro</a></li>
-                    <li><a href="./Paginas/fletes-en-balvanera.html">Balvanera</a></li>
-                    <li><a href="./Paginas/fletes-en-barracas.html">Barracas</a></li>
-                    <li><a href="./Paginas/fletes-en-belgrano.html">Belgrano</a></li>
-                    <li><a href="./Paginas/fletes-en-boedo.html">Boedo</a></li>
-                    <li><a href="./Paginas/fletes-en-caballito.html">Caballito</a></li>
-                    <li><a href="./Paginas/fletes-en-chacarita.html">Chacarita</a></li>
-                    <li><a href="./Paginas/fletes-en-colegiales.html">Colegiales</a></li>
-                    <li><a href="./Paginas/fletes-en-congreso.html">Congreso</a></li>
-                    <li><a href="./Paginas/fletes-en-constitucion.html">Constitucion</a></li>
-                    <li><a href="./Paginas/fletes-en-devoto.html">Devoto</a></li>
-                    <li><a href="./Paginas/fletes-en-flores.html">Flores</a></li>
-                    <li><a href="./Paginas/fletes-en-floresta.html">Floresta</a></li>
-                    <li><a href="./Paginas/fletes-en-liniers.html">Liniers</a></li>
-                    <li><a href="./Paginas/fletes-en-mataderos.html">Mataderos</a></li>
-                    <li><a href="./Paginas/fletes-en-microcentro.html">Micricentro</a></li>
-                    <li><a href="./Paginas/fletes-en-nuñez.html">Nuñez</a></li>
-                    <li><a href="./Paginas/fletes-en-once.html">Once</a></li>
-                    <li><a href="./Paginas/fletes-en-palermo.html">Palermo</a></li>
-                    <li><a href="./Paginas/fletes-en-villa-urquiza.html">Villa Urquiza</a></li>
+                    <li><a href="/Paginas/mudanzas-en-almagro.html">Almagro</a></li>
+                    <li><a href="/paginas/mudanzas-en-balvanera.html">Balvanera</a></li>
+                    <li><a href="/Paginas/mudanzas-en-barracas.html">Barracas</a></li>
+                    <li><a href="/Paginas/mudanzas-en-belgrano.html">Belgrano</a></li>
+                    <li><a href="/Paginas/mudanzas-en-boedo.html">Boedo</a></li>
+                    <li><a href="/Paginas/mudanzas-en-caballito.html">Caballito</a></li>
+                    <li><a href="/Paginas/mudanzas-en-chacarita.html">Chacarita</a></li>
+                    <li><a href="/Paginas/mudanzas-en-colegiales.html">Colegiales</a></li>
+                    <li><a href="/Paginas/mudanzas-en-congreso.html">Congreso</a></li>
+                    <li><a href="/Paginas/mudanzas-en-constitucion.html">Constitucion</a></li>
+                    <li><a href="/Paginas/mudanzas-en-devoto.html">Devoto</a></li>
+                    <li><a href="/Paginas/mudanzas-en-flores.html">Flores</a></li>
+                    <li><a href="/Paginas/mudanzas-en-floresta.html">Floresta</a></li>
+                    <li><a href="/Paginas/mudanzas-en-liniers.html">Liniers</a></li>
+                    <li><a href="/Paginas/mudanzas-en-mataderos.html">Mataderos</a></li>
+                    <li><a href="/Paginas/mudanzas-en-microcentro.html">Micricentro</a></li>
+                    <li><a href="/Paginas/mudanzas-en-nuñez.html">Nuñez</a></li>
+                    <li><a href="/Paginas/mudanzas-en-once.html">Once</a></li>
+                    <li><a href="/Paginas/mudanzas-en-palermo.html">Palermo</a></li>
+                    <li><a href="/Paginas/mudanzas-en-villaUrquiza.html">Villa Urquiza</a></li>
                 </ul>
             </div>
         </section>
@@ -266,5 +268,6 @@
     <script>
         AOS.init();
       </script>
+      <script src="../JS/wppForm.js"></script>
 </body>
 </html>

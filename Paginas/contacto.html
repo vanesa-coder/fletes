@@ -100,10 +100,12 @@
             <div class="formulario-titulos">
             <p class="formulario-titulo1">NECESITO UN PRESUPUESTO</p>
             <p class="formulario-titulo2">Envianos tu número de teléfono y te llamamos al instante</p>
-            <input class="formulario-info" required type="text" name="nombre" placeholder="Nombre">
-            <input class="formulario-info" required type="tel" name="telefono" placeholder="Servicio (Ej.Mudanza)">
+            <input id="f4bFormNombre" class="formulario-info1" required type="text" name="nombre" placeholder="Nombre">
+                <input id="f4bFormMensaje" class="formulario-info2" required type="tel" name="telefono" placeholder="Consulta">
             <div>
-            <button class="boton-formulario" type="submit"><i class="fa fa-envelope-o"></i>Enviar</button>
+                <a id="f4bFormWpp">
+                    <button class="boton-formulario" type="submit">Enviar</button>
+                </a>
             </div>
             </div>
         </section> 
@@ -140,5 +142,6 @@
     <script>
         AOS.init();
       </script>
+      <script src="../JS/wppForm.js"></script>
 </body>
 </html>
