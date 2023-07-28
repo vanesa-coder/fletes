@@ -20,30 +20,14 @@
 .formulario{
     margin-top: 50px;
     margin-bottom: 50px;
-    img{
-    width: 100%;
-    height: auto;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    @media(max-width:700px){
-       height: 350px;
-    }
-    }
-    .formulario-titulos{
-        position: absolute;
-        margin-top: -273px;
-        margin-left: 300px; 
-        @media(max-width:700px){
-            margin-left: 0px;
-            margin-top: -300px;
-        }
-    }
+    background-color: black;
+    height: 470px;
+    
     .formulario-titulo1{
         font-size: 48px;
         font-weight: bold;
         color: $color-h1;
-        margin-bottom: 30px;
+        padding-top: 40px;
 
         @media(max-width:700px){
             font-size: 28px;
@@ -57,55 +41,48 @@
         margin-top: -20px;
         @media(max-width:700px){
             font-size: 18px;
-            // padding: 15px;
         }
     }
-    .formulario-info1{
-        width: 300px;
-        height: 40px;
-        margin-left: 30px; 
-        margin-top: 5px;
-        @media(max-width:700px){
-            width: 250px;
-            height: 37px;
-            margin-left: 56px;
-            margin-bottom: 10px;
-        }  
-    }
-    .formulario-info2{
-        width: 400px;
-        height: 40px;
-        margin-left: 30px; 
-        margin-top: 5px;
-        @media(max-width:700px){
-            width: 250px;
-            height: 37px;
-            margin-left: 56px;
-            margin-bottom: 10px;
-        }  
-    }
-    .boton-formulario{
-        width: 160px;
-        height: 50px;
-        border-radius: 25px;
-        border-color: #0bc151;
-        background-color: #0bc151;
-        margin-top: 20px;
-        margin-left: 265px;
-        cursor: pointer;
-        &:hover{
-            background-color: $color-h1;
-            color: #0bc151;
-            font-weight: bold;
-        }
-        @media(max-width:700px){
-            margin-left: 103px;
-        }
-
-    }
-
-    
 }
+.f4b-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 350px;
+    }
+    
+    .f4b-form a {
+    background-color: #4e9507;
+    height: 50px;
+    width: 167px;
+    border-radius: 22px;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    text-decoration: none;
+    }
+    
+    .f4b-form input {
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    }
+    
+    .f4b-form input:nth-child(2) {
+    height: 55px;
+    width: 60%;
+    }
+    
+    /* Verifica el completado de los inputs */
+    
+.verificarForm {
+border: solid 2px red;
+}
+    
+
 .formulario-quiero{
     width: 100%;
     height: 400px;
@@ -122,6 +99,6 @@
         margin-bottom: 0;
     }
 }
-.verificarForm {
-    border: solid 2px red;
-  }
+// .verificarForm {
+//     border: solid 2px red;
+//   }

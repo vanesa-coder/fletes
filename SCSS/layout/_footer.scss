@@ -1,11 +1,13 @@
 .piedepag{
     background-color: black;
     width: 100%;
-    height: 80px;
+    height: 200px;
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 50% 50%;
     grid-template-areas: 
-    "logo menu redes";
+    "logo menu redes"
+    ". firma .";
     justify-items: center;
     align-items: center;
     @media(max-width:700px){
@@ -84,5 +86,13 @@
         
        }
      }
+ }
+ .copyright{
+   grid-area: firma;
+   font-size: 14px;
+   color: white;
+ }
+ .link{
+   color: red;
  }
  

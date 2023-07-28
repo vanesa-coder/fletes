@@ -146,10 +146,11 @@ header {
 .piedepag {
   background-color: black;
   width: 100%;
-  height: 80px;
+  height: 200px;
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-areas: "logo menu redes";
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "logo menu redes" ". firma .";
   justify-items: center;
   align-items: center;
 }
@@ -222,6 +223,16 @@ img {
     display: inline-block;
     justify-content: space-around;
   }
+}
+
+.copyright {
+  grid-area: firma;
+  font-size: 14px;
+  color: white;
+}
+
+.link {
+  color: red;
 }
 
 #portada-home {
@@ -449,22 +460,24 @@ img {
 /* Boton flotante de whatsapp */
 .float {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 200px;
+  height: 54px;
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
+  font-family: "Roboto-Light";
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+  text-decoration: none;
 }
 
 .float:hover {
   text-decoration: none;
-  color: #FFF;
+  color: black;
   background-color: #11f364;
   animation: shake 1s;
   animation-iteration-count: infinite;
@@ -721,35 +734,14 @@ p {
 .formulario {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-.formulario img {
-  width: 100%;
-  height: auto;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-@media (max-width: 700px) {
-  .formulario img {
-    height: 350px;
-  }
-}
-.formulario .formulario-titulos {
-  position: absolute;
-  margin-top: -273px;
-  margin-left: 300px;
-}
-@media (max-width: 700px) {
-  .formulario .formulario-titulos {
-    margin-left: 0px;
-    margin-top: -300px;
-  }
+  background-color: black;
+  height: 470px;
 }
 .formulario .formulario-titulo1 {
   font-size: 48px;
   font-weight: bold;
   color: #ffffff;
-  margin-bottom: 30px;
+  padding-top: 40px;
 }
 @media (max-width: 700px) {
   .formulario .formulario-titulo1 {
@@ -768,53 +760,42 @@ p {
     font-size: 18px;
   }
 }
-.formulario .formulario-info1 {
-  width: 300px;
-  height: 40px;
-  margin-left: 30px;
-  margin-top: 5px;
+
+.f4b-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 350px;
 }
-@media (max-width: 700px) {
-  .formulario .formulario-info1 {
-    width: 250px;
-    height: 37px;
-    margin-left: 56px;
-    margin-bottom: 10px;
-  }
-}
-.formulario .formulario-info2 {
-  width: 400px;
-  height: 40px;
-  margin-left: 30px;
-  margin-top: 5px;
-}
-@media (max-width: 700px) {
-  .formulario .formulario-info2 {
-    width: 250px;
-    height: 37px;
-    margin-left: 56px;
-    margin-bottom: 10px;
-  }
-}
-.formulario .boton-formulario {
-  width: 160px;
+
+.f4b-form a {
+  background-color: #4e9507;
   height: 50px;
-  border-radius: 25px;
-  border-color: #0bc151;
-  background-color: #0bc151;
-  margin-top: 20px;
-  margin-left: 265px;
-  cursor: pointer;
+  width: 167px;
+  border-radius: 22px;
+  text-align: center;
+  padding-top: 12px;
+  color: white;
+  text-decoration: none;
 }
-.formulario .boton-formulario:hover {
-  background-color: #ffffff;
-  color: #0bc151;
-  font-weight: bold;
+
+.f4b-form input {
+  height: 50px;
+  width: 200px;
+  border-radius: 15px;
+  text-align: center;
 }
-@media (max-width: 700px) {
-  .formulario .boton-formulario {
-    margin-left: 103px;
-  }
+
+.f4b-form input:nth-child(2) {
+  height: 55px;
+  width: 60%;
+}
+
+/* Verifica el completado de los inputs */
+.verificarForm {
+  border: solid 2px red;
 }
 
 .formulario-quiero {
@@ -834,10 +815,6 @@ p {
     margin-top: 75px;
     margin-bottom: 0;
   }
-}
-
-.verificarForm {
-  border: solid 2px red;
 }
 
 .nosotros {
@@ -987,6 +964,10 @@ p {
 .solicitar:hover {
   background-color: #0bc151;
   border: 3px solid #0bc151;
+}
+
+.solicito {
+  text-decoration: none;
 }
 
 .equipamiento {
