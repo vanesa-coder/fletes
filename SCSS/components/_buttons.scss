@@ -1,13 +1,54 @@
-.whatsapp1{
-    margin-left: 94%;
-    position: fixed;
-    z-index: 20;
-    margin-top: 33%;
-    @media(max-width:700px){
-        margin-left: 77%;
-        margin-top: 161%;
-    }
+// .whatsapp1{
+//     margin-left: 94%;
+//     position: fixed;
+//     z-index: 20;
+//     margin-top: 33%;
+//     @media(max-width:700px){
+//         margin-left: 77%;
+//         margin-top: 161%;
+//     }
+// }
+
+/* Boton flotante de whatsapp */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
 }
+.float:hover {
+	text-decoration: none;
+	color: #FFF;
+  background-color:#11f364;  
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* Efectos del boton flotante */
+
+
+
+@keyframes shake {
+  0% { transform: translateX(0px)}
+ 25% { transform: translateX(5px) }
+ 50% { transform: translateX(-5px) }
+ 75% { transform: translateX(5px) }
+ 100% { transform: translateX(0) }
+}
+
 .whatsapp2{
     margin-left: 1250px;
     position: fixed;
