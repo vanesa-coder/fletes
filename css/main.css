@@ -97,7 +97,7 @@ header {
 }
 .nav-link:hover {
   background-color: #EB0001;
-  color: black !important;
+  color: white !important;
   border-radius: 7px;
 }
 
