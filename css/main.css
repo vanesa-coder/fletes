@@ -450,12 +450,12 @@ img {
   margin-left: 94%;
   position: fixed;
   z-index: 20;
-  margin-top: 6%;
+  margin-top: 33%;
 }
 @media (max-width: 700px) {
   .whatsapp1 {
-    margin-left: 80%;
-    margin-top: 3%;
+    margin-left: 77%;
+    margin-top: 161%;
   }
 }
 
