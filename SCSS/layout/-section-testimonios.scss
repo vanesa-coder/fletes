@@ -16,7 +16,7 @@
 
 .carousel-item{
     height: 350px;
-    background-color: #f2f2f4;
+    background-color: black;
     @media(max-width:700px){
         height: 380px;
     }
@@ -33,10 +33,10 @@
     }
     .cliente{
         font-weight: bold;
-        color: black;
+        color: white;
     }
     .testimonio-texto{
-        color:black;
+        color:white;
         font-size: 18px;
         padding: 25px 60px;
         @media(max-width:700px){

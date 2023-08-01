@@ -157,9 +157,9 @@ header {
 @media (max-width: 700px) {
   .piedepag {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
-    height: 120px;
+    height: 166px;
   }
 }
 
@@ -209,6 +209,11 @@ img {
   display: inline-block;
   margin-top: 18px;
 }
+@media (max-width: 700px) {
+  .redes-footer {
+    margin-top: 0px;
+  }
+}
 .redes-footer i {
   font-size: 20px;
   color: black;
@@ -230,9 +235,16 @@ img {
   font-size: 14px;
   color: white;
 }
+@media (max-width: 700px) {
+  .copyright {
+    font-size: 13px;
+    margin-top: 18px;
+  }
+}
 
 .link {
   color: red;
+  text-decoration: none;
 }
 
 #portada-home {
@@ -783,14 +795,14 @@ p {
 
 .f4b-form input {
   height: 50px;
-  width: 200px;
+  width: 230px;
   border-radius: 15px;
   text-align: center;
 }
 
 .f4b-form input:nth-child(2) {
   height: 55px;
-  width: 60%;
+  width: 85%;
 }
 
 /* Verifica el completado de los inputs */
@@ -1047,7 +1059,7 @@ p {
 
 .carousel-item {
   height: 350px;
-  background-color: #f2f2f4;
+  background-color: black;
 }
 @media (max-width: 700px) {
   .carousel-item {
@@ -1068,10 +1080,10 @@ p {
 }
 .carousel-item .container .cliente {
   font-weight: bold;
-  color: black;
+  color: white;
 }
 .carousel-item .container .testimonio-texto {
-  color: black;
+  color: white;
   font-size: 18px;
   padding: 25px 60px;
 }
